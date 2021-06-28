@@ -42,11 +42,13 @@ Please create a new issue for code-related questions. Pull requests are welcome.
 
 ## Citation
 If you use our code or method in your work, please cite the following:
+```bash
 @article{liu2021pseudo,
-    title={Pseudo-LiDAR Point Cloud Interpolation Based on 3D Motion Representation and Spatial Supervision},
-    author={Liu, Haojie and Liao, Kang and Lin, Chunyu and Zhao, Yao and Guo, Yulan},
-    journal={IEEE Transactions on Intelligent Transportation Systems},
-    year={2021},
-    publisher={IEEE}
-}
+	title={Pseudo-LiDAR Point Cloud Interpolation Based on 3D Motion Representation and Spatial Supervision},
+	author={Liu, Haojie and Liao, Kang and Lin, Chunyu and Zhao, Yao and Guo, Yulan},
+	journal={IEEE Transactions on Intelligent Transportation Systems},
+	year={2021},
+	publisher={IEEE}
+	}
+```
 
