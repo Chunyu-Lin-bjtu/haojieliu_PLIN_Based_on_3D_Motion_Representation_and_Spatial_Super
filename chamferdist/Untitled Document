@@ -1,0 +1,9 @@
+import torch
+from chamferdist import ChamferDistance
+pc1 = torch.randn(1, 100000, 3).cuda().contiguous()
+pc2 = torch.randn(1, 100000, 3).cuda().contiguous()
+chamferDist = ChamferDistance()
+
+dist1, dist2, idx1, idx2 = chamferDist(pc1, pc2)
+print(dist1.shape, dist2.shape, idx1.shape, idx2.shape)
+
